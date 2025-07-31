@@ -12,7 +12,13 @@ public class Practice2 {
 		System.out.println("enter second number: ");
 		int num2 = sc.nextInt();
 		
-		System.out.println("answer is " + num1 * num2);
+		System.out.println("addition: " + (num1+num2));
+		System.out.println("substraction: " + (num1-num2));
+		System.out.println("multiplication :" + (num1 * num2));
+		System.out.println("division: " + (num1 / num2));
+		
+		
+		
 		
 		
 	}
