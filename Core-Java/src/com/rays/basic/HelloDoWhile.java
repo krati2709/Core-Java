@@ -6,7 +6,7 @@ public class HelloDoWhile {
 		do {
 			System.out.println(i + " Hello World");
 			i++;
-		} while (i<=5); // 1
+		} while (i<=5); 
 		
 	}
 
