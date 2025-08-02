@@ -12,13 +12,14 @@ public class PrimeNum {
 				count++;
 			}
 		}
-			if (count>0) {
-				System.out.println("it is not a prime number");
-				
-			} else {
-				System.out.println("it is prime number");
-			
+		
+		if (count>0) {
+			System.out.println(num + " is not prime number");
+		} else {
+			System.out.println(num+ " is a prime number");
+		}
+	
 		}
 	}
 
-}
+
