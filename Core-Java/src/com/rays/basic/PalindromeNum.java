@@ -4,7 +4,7 @@ public class PalindromeNum {
 	public static void main(String[] args) {
 		
 
-			int i = 121; 
+			int i = 123; 
 			int temp = i; 
 			int r = 0;
 			int rnum = 0;

@@ -12,14 +12,14 @@ public class SecondSmallestNum {
 				smallest = b;
 			}
 		}
-		System.out.println("smallest num in array is: " + smallest);
+		System.out.println("smallest num in array is:   " + smallest);
 		
-		for(int b : a) {
-			if (b>smallest && b<secSmallest) {
-				secSmallest = b;
-			}
-		}
-		System.out.println("second smallest number in array is: " +secSmallest);
+//		for(int b : a) {
+//			if (b>smallest && b<secSmallest) {
+//				secSmallest = b;
+//			}
+//		} 
+//		System.out.println("second smallest number in array is: " +secSmallest);
 	}
 
 }

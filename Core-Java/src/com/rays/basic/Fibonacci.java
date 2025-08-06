@@ -14,6 +14,10 @@ public static void main(String[] args) {
 	i = i+i;
 	}
 	
+//	for (int i = 7; i < 1000; i =  i+i) {
+//		System.out.println(i);
+//	}
+	
 }
 }
 

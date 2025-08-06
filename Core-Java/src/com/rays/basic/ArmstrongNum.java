@@ -8,17 +8,15 @@ public class ArmstrongNum {
 		int r = 0;
 		int sum = 0;
 		
-		while(temp>0) {
-			r = temp%10;
-			sum = sum + r*r*r;
-			temp = temp/10;
+		while(i > 0) {
+		r = temp%10;
+		sum = sum + r*r*r;
+		temp = temp/10;
 		}
-		
-		System.out.println(sum);
-		if (i==sum) {
-			System.out.println("it is armstrong number");
+		if (i == sum) {
+		System.out.println("it is armstrong numnber");
 		} else {
-			System.out.println("it is not an armstrong number");
+			System.out.println("it is not armstrong ");
 		}
 	}
 
