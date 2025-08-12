@@ -42,4 +42,13 @@ public class Account {
 			System.out.println("Total balance after withdrawal: " +this.balance);
 		}
 	}
+	
+	public void fundTransfer (double amount) {
+		if (amount > this.balance) {
+			System.out.println("Not sufficient balance");
+		} else {
+			this.balance = this.balance - amount;
+			System.out.println("Total balance after fund transfer: " +this.balance);
+		}
+	}
 }
