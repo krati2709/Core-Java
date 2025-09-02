@@ -25,7 +25,7 @@ public class Employee implements Comparable<Employee>{
 			return this.id - o.id;
 
 			// return o.salary - this.salary; 
-			// return o.id - this.id;
+			// return o.name.compareTo(this.name);
 		}
 		
 }

@@ -8,7 +8,7 @@ public class Marksheet implements Comparable<Marksheet>{
 	public int chemistry;
 	public int maths;
 	
-	public Marksheet(int rollNo, String name, int physics, int chemitry, 
+	public Marksheet(int rollNo, String name, int physics, int chemistry, 
 			int maths) {
 		this.rollNo = rollNo;
 		this.name = name;
