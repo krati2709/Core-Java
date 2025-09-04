@@ -4,20 +4,20 @@ public class PalindromeNum {
 	public static void main(String[] args) {
 		
 
-			int i = 123; 
+			int i = 121; 
 			int temp = i; 
 			int r = 0;
-			int rnum = 0;
+			int num = 0;
 
 			while (temp > 0) {
 
 				r = temp % 10;
-				rnum = rnum * 10 + r;
+				num = num * 10 + r;
 				temp = temp / 10;
 
 			}
 
-			if (i == rnum) {
+			if (i == num) {
 
 				System.out.println(i + " is palindrome");
 
