@@ -3,7 +3,7 @@ package com.rays.basic;
 public class HarmonicSeries {
     public static void main(String[] args) {
         int n = 5;   // number of terms (you can change this value)
-        double sum = 0.0;
+        
 
         System.out.print("Harmonic Series: ");
         for (int i = 1; i <= n; i++) {

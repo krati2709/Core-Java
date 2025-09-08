@@ -1,30 +1,29 @@
 package com.rays.basic;
 
-
 public class Practice {
 	public static void main(String[] args) {
 		
-		int [] a = {1, 2, 3, 4, 5};
-		int [] b = {1, 2, 3, 4};
+//14
+		int n = 10;
+		int evenCount = 0;
+		int oddCount = 0;
+		int evenSum = 0;
+		int oddSum = 0;
 		
-		int sumA= 0;
-		int sumB= 0;
-		
-		for (int i = 0; i < a.length; i++) {
-			sumA = sumA + a[i];
+		while (n > 0) {
+			if (n % 2 == 0) {
+				evenCount++;
+				evenSum = evenSum + n;
+			} else {
+				oddCount++;
+				oddSum = oddSum + n;
+			} 
+			n--;
 		}
-		
-		for (int i = 0; i < b.length; i++) {
-			sumB = sumB + b[i];
-		}
-		
-		int missing = sumA - sumB;
-		System.out.println(missing);
-		
-			 
-		
-		
-		
-		
+		int evenAverage = evenSum/evenCount;
+		int oddAverage = oddSum/oddCount;
+		System.out.println(evenAverage);
+		System.out.println(oddAverage);
 	}
+
 }
