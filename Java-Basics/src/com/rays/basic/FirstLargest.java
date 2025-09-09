@@ -6,10 +6,9 @@ public class FirstLargest {
 		int[] a = { 65, 98, 43, 54, 34, 73 };
 		int largest = a[0];
 
-		for (int i = 0; i < a.length; i++) {
-
-			if (a[i] > largest) {
-				largest = a[i];
+		for(int b : a) {
+			if (b>largest) {
+				largest = b;
 			}
 
 		}
