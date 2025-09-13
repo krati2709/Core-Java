@@ -10,15 +10,16 @@ public class Irctc {
 	Random r = new Random();
 
 	public synchronized void bookTicket(String name, int num) {
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 		int ticket;
 		do {
 			ticket = r.nextInt(72) + 1;
+			try {
+				Thread.sleep(200);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		} while (bookedTickets.contains(ticket));
 		bookedTickets.add(ticket);
 		System.out.println(name + ": " + ticket);
